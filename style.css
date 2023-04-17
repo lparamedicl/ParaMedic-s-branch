@@ -82,7 +82,7 @@ line-height: 32px;
     flex-grow: .5;
 }
 .buttons {
-    flex-grow: .2;
+    flex-grow: .15;
     justify-content: space-between;
 }
 .links1 {
@@ -91,18 +91,6 @@ line-height: 32px;
 }
 .fotki {
     display: flex;
-}
-.btn1 {
-    background-color: #3BB372;
-    color: white;
-    margin: -10px -20px -10px -10px;
-    padding: 10px 20px 10px 10px;
-    border-radius: 5px;
-    font-family: Evelynn;
-    font-style: normal;
-font-weight: 200;
-font-size: 20px;
-line-height: 6px;
 }
 .absolute {
     position: absolute;
@@ -132,7 +120,8 @@ line-height: 6px;
 .rec7 {
     z-index: -1;
     top: 434px;
-    left: 6%;
+    left: 23%;
+    transform: translate(-50%);
 }
 .rec11 {
     z-index: -1;
@@ -140,12 +129,27 @@ line-height: 6px;
     right: 25%;
     transform: translate(50%);
 }
+.btn1 {
+    background-color: #3BB372;
+    clip-path: polygon(0 1%, 72% 0, 100% 100%, 0% 100%);
+
+    color: white;
+    margin: -10px -40px -10px -10px;
+    padding: 10px 40px 10px 10px;
+    border-radius: 5px;
+    font-family: Evelynn;
+    font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 6px;
+}
 .btn2 {
     color: #1F1F1F;
-    margin: -10px -10px -10px -20px;
-    padding: 10px 10px 10px 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 37% 100%);
+    margin: -10px -10px -10px -40px;
+    padding: 10px 10px 10px 40px;
     border-radius: 5px;
-    border: 2px solid;
+    border: 3px solid;
     font-family: Evelynn;
     font-style: normal;
 font-weight: 200;
@@ -154,9 +158,11 @@ line-height: 6px;
 }
 .btn6 { 
     color: white;
-    background-image: url(Rectangle\ 5.png);
-    margin: -10px -10px -10px -20px;
-    padding: 10px 10px 10px 20px;
+    clip-path: polygon(32% 0, 100% 0, 100% 100%, 0 100%);
+    background-color: #3BB372;
+    border-radius: 5px;
+    margin: -10px -10px -10px -30px;
+    padding: 10px 10px 10px 30px;
     font-family: Evelynn;
     font-style: normal;
 font-weight: 200;
