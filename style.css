@@ -2,6 +2,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    margin-top: 2%;
+}
 .flex {
     display: flex;
 }
@@ -16,11 +19,69 @@ nav {
     justify-content: space-between;
     flex-grow: .2;
 }
+main {
+    margin-top: 80px;
+}
 a {
     text-decoration: none;
     color: black;
+    font-family: Evelynn;
+    font-weight: 400;
+font-size: 20px;
+line-height: 26px;
 }
 .btn {
     background-color: transparent;
     border: none;
+}
+.btn1 {
+    font-family: Camille;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.text1 {
+    color: #398495;
+    font-family: Evelynn;
+font-weight: 400;
+font-size: 28px;
+line-height: 36px;
+}
+.text3 {
+    font-family: Camille;
+font-weight: 400;
+font-size: 72px;
+line-height: 72px;
+}
+.bibta {
+gap: 15px;
+}
+.content-btw {
+    justify-content: space-between;
+}
+.div1 {
+    gap: 35px;
+}
+p {
+    font-family: Camille;
+    font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+}
+.direction-column {
+    flex-direction: column;
+
+}
+
+
+
+@font-face {
+    font-family: Evelynn;
+    src: url(nawwor/PTSansNarrow-Bold.ttf);
+}
+@font-face {
+    font-family: Camille;
+    src: url(suplhut/SulphurPoint-Bold.ttf);
 }
