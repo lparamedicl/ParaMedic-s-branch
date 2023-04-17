@@ -20,8 +20,14 @@ nav {
     flex-grow: .2;
 }
 main {
+    display: flex;
     margin-top: 80px;
 }
+.div5 {
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -60,9 +66,7 @@ gap: 15px;
 .content-btw {
     justify-content: space-between;
 }
-.div1 {
-    gap: 35px;
-}
+
 p {
     font-family: Camille;
     font-style: normal;
@@ -72,9 +76,18 @@ line-height: 32px;
 }
 .direction-column {
     flex-direction: column;
-
 }
-
+.content-center {
+    justify-content: center;
+    flex-grow: .5;
+}
+.links1 {
+    justify-content: space-between;
+    gap: 10px;    
+}
+.fotki {
+    display: flex;
+}
 
 
 @font-face {
