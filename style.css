@@ -55,7 +55,7 @@ font-size: 28px;
 line-height: 36px;
 }
 .text3 {
-    font-family: Camille;
+    font-family: monospace;
 font-weight: 400;
 font-size: 72px;
 line-height: 72px;
@@ -81,12 +81,87 @@ line-height: 32px;
     justify-content: center;
     flex-grow: .5;
 }
+.buttons {
+    flex-grow: .2;
+    justify-content: space-between;
+}
 .links1 {
     justify-content: space-between;
     gap: 10px;    
 }
 .fotki {
     display: flex;
+}
+.btn1 {
+    background-color: #3BB372;
+    color: white;
+    margin: -10px -20px -10px -10px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 5px;
+    font-family: Evelynn;
+    font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 6px;
+}
+.absolute {
+    position: absolute;
+}
+.rec1 {
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.rec8 {
+    z-index: -1;
+    top: 0;
+    left: 63%;
+    transform: translate(-50%);
+}
+.rec9 {
+    z-index: -1;
+    top: 40px;
+    right: 2%;
+    transform: translate(2%);
+}
+.rec2 {
+    z-index: -1;
+    left: 55%;
+    transform: translate(-50%);
+}
+.rec7 {
+    z-index: -1;
+    top: 434px;
+    left: 6%;
+}
+.rec11 {
+    z-index: -1;
+    top: 670px;
+    right: 25%;
+    transform: translate(50%);
+}
+.btn2 {
+    color: #1F1F1F;
+    margin: -10px -10px -10px -20px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 5px;
+    border: 2px solid;
+    font-family: Evelynn;
+    font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 6px;
+}
+.btn6 { 
+    color: white;
+    background-image: url(Rectangle\ 5.png);
+    margin: -10px -10px -10px -20px;
+    padding: 10px 10px 10px 20px;
+    font-family: Evelynn;
+    font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 6px;
 }
 
 
